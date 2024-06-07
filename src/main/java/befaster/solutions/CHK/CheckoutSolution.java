@@ -15,10 +15,11 @@ public class CheckoutSolution {
            }
 
        }
-        System.out.print('\n');
+
         return total;
     }
 }
+
 
 
 
