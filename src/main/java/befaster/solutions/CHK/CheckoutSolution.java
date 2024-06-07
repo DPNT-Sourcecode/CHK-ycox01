@@ -56,11 +56,12 @@ public class CheckoutSolution {
         {
             total=total+para*50 + parc*20 + pard*15;
         }
-        total=total+para*50 + parb*30 + parc*20 + pard*15;
+
         //System.out.print('\n');
         return total;
 
     }
 }
+
 
 
