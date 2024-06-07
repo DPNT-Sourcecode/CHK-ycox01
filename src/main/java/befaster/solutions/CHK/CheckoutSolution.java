@@ -8,10 +8,14 @@ public class CheckoutSolution {
         int total=0;
        for(int i=0;i<skus.length();i++)
        {
-           System.out.println(skus.charAt(i));
+           if(skus.charAt(i)=='A');
+           {
+               System.out.println(50);
+           }
        }
         return total;
     }
 }
+
 
 
