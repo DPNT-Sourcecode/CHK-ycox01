@@ -36,10 +36,15 @@ public class CheckoutSolution {
        {
            total=total+45*(parb/2);
        }
-       total=total+para*50 + parb+30 + parc*20 + pard*15
+       if(para%3!=0 && parb%2!=0 )
+       {
+           total=total+para*50 + parb+30 + parc*20 + pard*15;
+       }
+
         //System.out.print('\n');
         return total;
 
     }
 }
+
 
