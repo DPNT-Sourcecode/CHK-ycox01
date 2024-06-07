@@ -23,6 +23,7 @@ public class CheckoutSolution {
            else if(skus.charAt(i)=='C')
            {
                parc++;
+               System.out.print(parc);
            }
            else if(skus.charAt(i)=='D')
            {
@@ -62,6 +63,7 @@ public class CheckoutSolution {
 
     }
 }
+
 
 
 
