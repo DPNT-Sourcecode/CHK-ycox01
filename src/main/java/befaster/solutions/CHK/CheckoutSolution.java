@@ -10,7 +10,7 @@ public class CheckoutSolution {
 
        for(int i=0;i<skus.length();i++)
        {
-           if(skus.charAt(i)=='D');
+           if(skus.charAt(i)=='A')
            {
                total++;
            }
@@ -21,9 +21,3 @@ public class CheckoutSolution {
 
     }
 }
-
-
-
-
-
-
