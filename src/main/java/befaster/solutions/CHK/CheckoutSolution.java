@@ -6,11 +6,12 @@ public class CheckoutSolution {
     public Integer checkout(String skus)
     {
         int total=0;
+        System.out.print(skus.length());
        for(int i=0;i<skus.length();i++)
        {
            if(skus.charAt(i)=='A');
            {
-               System.out.print(skus.length());
+               System.out.print("ceva nu e ok");
            }
 
        }
@@ -18,3 +19,4 @@ public class CheckoutSolution {
         return total;
     }
 }
+
