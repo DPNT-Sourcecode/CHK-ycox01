@@ -6,7 +6,7 @@ public class CheckoutSolution {
     public Integer checkout(String skus)
     {
         int total=0;
-        System.out.print(skus.length());
+        System.out.println(skus.length());
        for(int i=0;i<skus.length();i++)
        {
            if(skus.charAt(i)=='A');
@@ -19,5 +19,6 @@ public class CheckoutSolution {
         return total;
     }
 }
+
 
 
