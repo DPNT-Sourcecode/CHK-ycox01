@@ -10,12 +10,13 @@ public class CheckoutSolution {
        {
            if(skus.charAt(i)=='A');
            {
-               System.out.println(50);
+               System.out.println(3);
            }
        }
         return total;
     }
 }
+
 
 
 
