@@ -12,11 +12,13 @@ public class CheckoutSolution {
            {
                System.out.print(skus.length());
            }
-           System.out.print('\n');
+
        }
+        System.out.print('\n');
         return total;
     }
 }
+
 
 
 
