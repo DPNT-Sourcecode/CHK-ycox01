@@ -11,7 +11,7 @@ public class CheckoutSolution {
        {
            if(skus.charAt(i)=='A');
            {
-               System.out.print("ceva nu e ok");
+               System.out.println("ceva nu e ok");
            }
 
        }
@@ -19,4 +19,5 @@ public class CheckoutSolution {
         return total;
     }
 }
+
 
