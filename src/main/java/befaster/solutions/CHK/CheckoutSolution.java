@@ -5,8 +5,13 @@ import befaster.runner.SolutionNotImplementedException;
 public class CheckoutSolution {
     public Integer checkout(String skus) {
         int total=0;
-        
+        for(int i=0;i<skus.length();i++) {
+           total=total+Character.getNumericValue(skus.charAt(i));
+
+        }
+        return total;
     }
 }
+
 
 
