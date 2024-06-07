@@ -16,16 +16,16 @@ public class CheckoutSolution {
            {
                para++;
            }
-           else if(skus.charAt(i)=='B')
+           if(skus.charAt(i)=='B')
            {
                parb++;
            }
-           else if(skus.charAt(i)=='C')
+           if(skus.charAt(i)=='C')
            {
                parc++;
                System.out.print(parc);
            }
-           else if(skus.charAt(i)=='D')
+           if(skus.charAt(i)=='D')
            {
                pard++;
            }
@@ -63,6 +63,7 @@ public class CheckoutSolution {
 
     }
 }
+
 
 
 
