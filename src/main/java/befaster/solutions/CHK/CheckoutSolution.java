@@ -23,10 +23,11 @@ public class CheckoutSolution {
            {
                parc++;
            }
-           else
+           else if(skus.charAt(i)=='D')
            {
                pard++;
            }
+
        }
        if(para%3==0)
        {
@@ -53,3 +54,4 @@ public class CheckoutSolution {
 
     }
 }
+
