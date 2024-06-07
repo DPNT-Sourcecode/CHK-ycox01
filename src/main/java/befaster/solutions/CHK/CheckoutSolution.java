@@ -56,12 +56,16 @@ public class CheckoutSolution {
         {
             total=total+para*50 + parc*20 + pard*15;
         }
-
+        else if( para==0 || parb==0 || parc==0 || pard==0 )
+        {
+            total=total+para*50 + parb*30 + parc*20 + pard*15;
+        }
         //System.out.print('\n');
         return total;
 
     }
 }
+
 
 
 
