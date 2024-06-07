@@ -43,7 +43,7 @@ public class CheckoutSolution {
        }
         if(para%3==0 && parb%2!=0 )
         {
-            total=total+ parb+30 + parc*20 + pard*15;
+            total=total+ parb*30 + parc*20 + pard*15;
         }
         else if(para%3!=0 && parb%2==0 )
         {
@@ -54,4 +54,5 @@ public class CheckoutSolution {
 
     }
 }
+
 
