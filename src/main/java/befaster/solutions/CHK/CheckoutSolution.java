@@ -3,6 +3,7 @@ package befaster.solutions.CHK;
 public class CheckoutSolution {
     public Integer checkout(String skus)
     {
+
         int total=0;
         int para=0;
         int parb=0;
@@ -26,6 +27,10 @@ public class CheckoutSolution {
            else if(skus.charAt(i)=='D')
            {
                pard++;
+           }
+           else
+           {
+               return -1;
            }
 
        }
@@ -58,6 +63,7 @@ public class CheckoutSolution {
 
     }
 }
+
 
 
 
